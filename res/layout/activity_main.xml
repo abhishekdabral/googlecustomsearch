@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue" >
+
+    <EditText
+        android:id="@+id/search_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ten"
+        android:background="@drawable/search_field_background"
+        android:paddingBottom="@dimen/ten"
+        android:paddingLeft="@dimen/ten"
+        android:paddingRight="@dimen/fifty"
+        android:paddingTop="@dimen/ten" >
+    </EditText>
+
+    <FrameLayout
+        android:id="@+id/search_result_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/search_field"
+        android:layout_alignRight="@+id/search_field"
+        android:layout_below="@+id/search_field"
+        android:background="@color/white"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/search_image"
+        android:layout_width="@dimen/fifty"
+        android:layout_height="@dimen/fifty"
+        android:layout_alignBottom="@+id/search_field"
+        android:layout_alignRight="@+id/search_field"
+        android:layout_alignTop="@+id/search_field"
+        android:padding="@dimen/five"
+        android:src="@drawable/search_icon_hi_black" />
+
+    <GridView
+        android:id="@+id/image_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_field"
+        android:background="@color/white"
+        android:horizontalSpacing="@dimen/five"
+        android:numColumns="auto_fit"
+        android:padding="@dimen/twenty"
+        android:layout_above="@+id/imgProgress"
+        android:verticalSpacing="@dimen/five"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:id="@+id/imgProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/progress_anim"
+        android:visibility="invisible" />
+
+</RelativeLayout>

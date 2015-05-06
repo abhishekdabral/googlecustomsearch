@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoogleImageSearch</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="google_api_key">AIzaSyC0m8w-NEP3yrKolboNbPLbhlhmHJc_cB0</string>
+    
+</resources>

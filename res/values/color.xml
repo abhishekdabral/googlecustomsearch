@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Colors constants  -->
+
+<resources>
+
+    <color name = "white" >#FFFFFF</color>
+    <color name = "black" >#000000</color>
+    <color name = "login_button_background" >#3F3A39</color>
+    <color name = "shaded_black" >#464646</color>
+    <color name = "bright_blue" >#BBE5FF</color>
+    <color name = "light_blue" >#44A2FF</color>
+    <color name = "dark_blue" >#1F7EC2</color>
+	<color name = "dark_white" >#EFEFEF</color>
+	<color name = "separator_grey" >#CFCFCF</color>
+	<color name = "dark_grey" >#C1C1C1</color>
+	<color name = "home_search_field_background" >#8B8B8B</color>
+	<color name = "red" >#FF0101</color>
+	<color name = "voilet" >#EF01FF</color>
+	<color name = "sky_blue" >#AB01FF</color>
+	<color name = "dark_voilet" >#0CC1FD</color>
+	<color name = "parrot_green" >#83FF36</color>
+    <color name = "yellow" >#EBFF01</color>
+    <color name = "green" >#70E333</color>
+    <color name = "grey" >#8C8E91</color>
+    <color name = "pink" >#F937E9</color>
+    <color name = "orange" >#FD8207</color>
+    <color name = "grey_background" >#4F4F51</color>
+    <color name = "transparent_grey" >#334F4F51</color>
+	<color name = "light_grey" >#DEDEDE</color>
+	<color name = "transparent_blue" >#3300B7FF</color>
+	<color name = "transparent" >#00000000</color>
+</resources>
